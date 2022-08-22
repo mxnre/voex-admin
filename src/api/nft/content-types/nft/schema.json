@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nfts",
+  "info": {
+    "singularName": "nft",
+    "pluralName": "nfts",
+    "displayName": "Nft"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "owner": {
+      "type": "string"
+    },
+    "balance": {
+      "type": "integer"
+    }
+  }
+}
